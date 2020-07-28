@@ -32,3 +32,21 @@ After seeing
 one can start DroidBot instances with `-humanoid localhost:50405` parameter. Now DroidBot will make use of Humanoid model when using model-based policies, such as `dfs_greedy`. See DroidBot [README](https://github.com/honeynet/droidbot) page for more usage details.
 
 Modify `domain` and `port` values in `config.json` in the same directory to deploy Humanoid service at other addresses.
+
+
+## Usefule commands to setup Humandroid by TingSU
+
+1. install tensorflow 1.12
+
+see [link1](https://www.liquidweb.com/kb/how-to-install-tensorflow-on-ubuntu-18-04/), [link2](https://linuxize.com/post/how-to-install-tensorflow-on-ubuntu-18-04/)
+
+2. install additional moudles
+
+```
+pip install matplotlib
+
+pip install scipy
+
+pip install pyflann-py3
+```
+
