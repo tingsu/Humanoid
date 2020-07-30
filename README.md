@@ -43,6 +43,10 @@ see [link1](https://www.liquidweb.com/kb/how-to-install-tensorflow-on-ubuntu-18-
 2. install additional moudles
 
 ```
+pip install -U pip
+
+pip install -U tensorflow==1.12
+
 pip install matplotlib
 
 pip install scipy
